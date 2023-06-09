@@ -13,6 +13,7 @@ def sort_string(string):
         sorted_string += chr(index + 97) * character_count[index]
     return sorted_string
 
+
 def is_anagram(first_string, second_string):
     if first_string == '' and second_string == '':
         return (first_string, second_string, False)

@@ -13,6 +13,4 @@ def find_duplicate(nums):
     return False
 
 
-
-
 print(find_duplicate([-1, 0, 0, 1, 4, 5, 8]))
